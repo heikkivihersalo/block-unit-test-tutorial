@@ -9,6 +9,6 @@ export default defineConfig( {
 		coverage: {
 			reporter: [ 'text', 'html' ],
 		},
-		setupFiles: './test.setup.js', // assuming the test folder is in the root of our project
+		setupFiles: './test.setup.js', // Path to the setup file that is run with each test suite
 	},
 } );
